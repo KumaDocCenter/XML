@@ -1,12 +1,12 @@
 ---
-title: [XML]案例
+title:  XML 案例
 date: 2018-12-18 12:35:40
 updated: 2018-12-18 12:35:40 
 mathjax: false
 categories: 
 tags:
-typora-root-url: assets
-typora-copy-images-to: assets
+typora-root-url: XML_案例
+typora-copy-images-to: XML_案例
 top: 
 ---
 

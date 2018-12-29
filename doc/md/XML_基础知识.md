@@ -1,12 +1,12 @@
 ---
-title: [XML]基础知识
+title:  XML 基础知识
 date: 2018-12-18 12:35:40
 updated: 2018-12-18 12:35:40 
 mathjax: false
 categories: 
 tags:
-typora-root-url: assets
-typora-copy-images-to: assets
+typora-root-url: XML_基础知识
+typora-copy-images-to: XML_基础知识
 top: 
 ---
 
@@ -72,7 +72,7 @@ XML 文档中的元素形成了一棵文档树。这棵树从根部开始，并�
 
 所有元素均可拥有子元素：
 
-![1532025359169](/1532025359169.png)
+![1532025359169](1532025359169.png)
 
 根据上图，编写XML代码：
 
@@ -374,7 +374,7 @@ else
 - 修改：按要求修改XML节点，最后保存
 - 删除：按要求删除XML节点，最后保存
 
-![1532352371653](/1532352371653.png)
+![1532352371653](1532352371653.png)
 
 
 
@@ -382,7 +382,7 @@ else
 
 这里的操作可不是用记事本打开XML，然后对其操作。而是用编程语言来对其进行操作。大多数的编程语言都可对XML进行操作，有的编程语言在操作XML的时候还有很多不同的方式。
 
-![1532351790124](/1532351790124.png)
+![1532351790124](1532351790124.png)
 
 
 
@@ -406,13 +406,13 @@ JavaScript方面，我们将在后面的JavaScript高级课程中讲解DOM操作
 
 ③ 生成SimpleXMLElement对象
 
-![img](/clip_image002.jpg)
+![img](clip_image002.jpg)
 
 实际上是调用函数库中的一个函数 `simplexml_load_file()` 或 `simplexml_load_string()`将 XML 文档或XML字符串加载到内存并得到 `SimpleXMLElement`对象，然后调用 `SimpleXMLElement`对象中的方法对XML进行操作。
 
 SimpleXMLElement对象方法一览（具体查看手册）：
 
-![1532353577345](/1532353577345.png)
+![1532353577345](1532353577345.png)
 
 
 
